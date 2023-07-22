@@ -10,13 +10,13 @@ function App() {
 
   const handleChangeLA = () => {
     setLanguage(() => {
-      //DICA: Função que troca um idioma por outro (ao clicar no botão)
+      //TIP: Función que cambia un idioma por otro (al pulsar el botón)
     })
   }
 
   return (
     <div className="App">
-      <>{/*  DICA: Adicione o provider LanguageContext */}
+      <>{/*  CONSEJO: Añada el proveedor LanguageContext */}
         <Navbar />
         <Body />
       </>
